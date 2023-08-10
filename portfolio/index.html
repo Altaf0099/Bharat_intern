@@ -1,1 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altaf 's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d408c03c45.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="software.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">My Project</a></li>
+                    <li><a href="#portfolio">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-ellipsis-vertical" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Altaf Khan</span><br>From India</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="altaf 2mb.jpg" alt = Example Image" width="500" height="650">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>  I am third year student pursuing Bachelor of Computer Applicaations(BCA) from Amity University Mumbai. I am always ready to have a new experience, meet new people and learn new things. I find the idea for creating value for people and impacting the world through my work gratifying.
+                    With a strong foundation in Python, Java, DBMS and Cloud Computing I have honed my skills in these languages, allowing me to create efficient and effective software solutions. I enjoy the logical and problem-solving aspects of programming and am always eager to learn and adapt to new technologies and languages. Alongside programming, i have delved into the realm of web development. I have acquired knowledge and 
+                    experience in creating responsive and visually appealing websites using HTML, CSS, and JAVASCRIPT. I find joy in bringing ideas to life on the web and crafting user-friendly experiences.
+                    </p>
+
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <!-- <p class="tab-links" onclick="opentab('experience')">Experience</p> -->
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Developer</span><br>Website Designing</li>
+                            <li><span>Python</span><br>Intermediate Coding</li>
+                            <li><span>DBMS</span><br>Basic knowledge</li>
+                            <li><span>Java</span><br>Intermediate Coding</li>
+                        </ul>
+                    </div>
+
+                    
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019</span><br>10th standard from Prem lata Inter college Uttar Pradesh</li>
+                            <li><span>2021</span><br>12th standard from Shree Ramsingh Inter College Uttar Pradesh</li>
+                            <li><span>2021-2024</span><br>BCA in IT from Amity University Mumbai</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="services">
+        <div class="container">
+             <h1 class="sub-title">My Project</h1>
+             <div class="services-list">
+                <div>
+                    <i class="fa-regular fa-user"></i>
+                    <h2>Portfolio</h2>
+                    <p>I crafted a sleek portfolio website using HTML, CSS, and JavaScript, offering an engaging "About Me" section that showcases my journey and skills.<br><br> It's a captivating platform that leaves a lasting impression on visitors.</p>
+                <a href="https://github.com/Altaf0099">Learn more..</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-clone"></i>
+                    <h2>Netflix Clone</h2>
+                    <p>With my expertise in HTML and CSS, I successfully crafted a full-fledged Netflix clone, meticulously replicating its design and layout.<br><br> The project offers a captivating movie streaming experience, complete with user-friendly features and responsive design for seamless viewing across various devices.</p>
+                <a href="https://github.com/Altaf0099">Learn more..</a>
+                </div>
+
+        </div>
+    </div>
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">Experience</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="altaf internship letter.png" >
+                        <div class="layer">
+                            <h3>Datamatics HR & Consultancy <pvt class="ltd"></pvt></h3>
+                            <p>August 2023 - Current<br><br>Python Programmer</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="python.jpg" >
+                        <div class="layer">
+                            <h3>Basic Python</h3>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                </div>
+             
+            </div>  
+                     
+        </div>
+
+        <div id="contact">
+            <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i>altafkhan55828@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>+91-9082334006</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/altu_137/?utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/altaf-khan-093730245/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/altubond"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="altaf khan (resume).pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Altaf. Made with ❤️</p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks =document.getElementsByClassName("tab-links");
+        var tabcontents =document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+
+        var sidemenu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzmlh1-SyZDOvohLOycMSYmtgNrmnyc8_N3RRIuaGvLURLc6gb0gni9Ik_AABirEvkWfQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg =document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML =""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
 
